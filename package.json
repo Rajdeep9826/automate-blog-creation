@@ -1,0 +1,25 @@
+{
+  "name": "automated-blog-creation",
+  "version": "1.0.0",
+  "description": "Automate blog creation using LangGraph, LangChain, and WordPress API.",
+  "main": "workflow.js",
+  "scripts": {
+    "start": "node workflow.js"
+  },
+  "dependencies": {
+    "langchain": "^0.0.1", 
+    "langgraph": "^0.0.1", 
+    "exceljs": "^4.4.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "LangChain",
+    "LangGraph",
+    "WordPress",
+    "JavaScript",
+    "Automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
